@@ -2,7 +2,6 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:think_hat_test/core/assets.dart';
 import 'package:think_hat_test/core/dimensions.dart';
 import 'package:think_hat_test/core/navigator_manager.dart';
@@ -81,10 +80,7 @@ class LoginScreen extends StatelessWidget {
       hintText: hintText,
       hintStyle:
           appTheme.light.textTheme.titleMedium?.copyWith(color: appColor.gray),
-      prefixIconConstraints: BoxConstraints(
-          maxHeight: prefixImage == shipItem ? 30.0 : 20, maxWidth: 63),
-      // constraints: const BoxConstraints(maxHeight: 43),
-      prefixIcon: Row(
+       prefixIcon: Row(
         children: [
           Padding(
               padding: const EdgeInsets.only(left: 18.0, top: 2),

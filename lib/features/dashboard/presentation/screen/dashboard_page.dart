@@ -259,7 +259,7 @@ class _VehicleSectionState extends State<_VehicleSection> {
                 padding: const EdgeInsets.only(right: 8.0),
                 child: CircleAvatar(
                   radius: 3,
-                  backgroundColor: visibleItems.first == index
+                  backgroundColor: visibleItems.firstOrNull == index
                       ? appColor.black
                       : appColor.lightGray2,
                 ),
