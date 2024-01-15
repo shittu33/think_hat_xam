@@ -1,4 +1,4 @@
-# think_hat_test
+# think_hat
 
 A new Flutter project.
 
